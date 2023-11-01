@@ -1,5 +1,35 @@
-# Statistical_Analysis
-STATISTICAL ANALYSIS
+Formulas:
+
+1. Mean: The arithmetic average of a set of values.
+   Formula: \(\frac{\sum_{i=1}^{n} X_i}{n}\)
+
+2. Median: The middle value of a dataset when arranged in ascending or descending order.
+   - For an odd number of values: Middle number
+   - For an even number of values: Average of the two middle numbers
+
+3. Mode: The most frequently occurring value in a dataset.
+
+4. Variance: The average of the squared differences from the mean.
+   Formula: \(\frac{\sum_{i=1}^{n}(X_i - \bar{X})^2}{n}\)
+
+5. Standard Deviation: The square root of the variance. It measures the amount of variation or dispersion of a dataset.
+   Formula: \(\sqrt{\frac{\sum_{i=1}^{n}(X_i - \bar{X})^2}{n}}\)
+
+6. Correlation: Measures the strength and direction of the relationship between two variables.
+   Formula: \(r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}\)
+
+7. Regression: Predicts the value of one variable based on another. A linear regression equation has the form \(y = mx + c\).
+
+8. T-Test: Determines if there is a significant difference between the means of two groups.
+   Formula: \(t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s^2}{n_1} + \frac{s^2}{n_2}}}\)
+
+9. ANOVA (Analysis of Variance): Assesses whether there are statistically significant differences between the means of three or more independent groups.
+   Formula: \(F = \frac{\text{Between Group Variability}}{\text{Within Group Variability}}\)
+
+10. Chi-Square Test: Determines whether there is a significant association between categorical variables.
+    Formula: \(\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}\)
+
+Statistical Analysis
 
 Statistical analysis involves applying statistical methods to collect, organize, analyse, interpret, and present data. It helps in extracting meaningful insights, identifying trends, making predictions, and drawing conclusions from data. 
 
